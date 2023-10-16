@@ -1,1 +1,13 @@
-
+/*div.general{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.section1{
+    background-color: pink;
+}
+.section2{
+    background-color: violet;
+}*/
