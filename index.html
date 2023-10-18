@@ -6,95 +6,112 @@
     <meta name="keywords" content="p1, p2, p3">
     <meta name="description" content="Este es mi curriculum vitae">
     <meta name="author" content="Sofia Zarate">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Poppins:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
 <body>
-    <header>
-        <h1>Currículum Vitae</h1>
-        <img src="foto.jpg" alt="Foto de Sofia Zarate">
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Educación</a></li>
-            <li><a href="#">Experiencia</a></li>
-            <li><a href="#">Habilidades</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Formulario de contacto</a></li>
-        </ul>
-    </nav>
-    <div class="general">
-        <div class="section1">
-            <section id="informacion-personal">
-                <h2>Información personal</h2>
-                <p>
-                    Nombre: <span>Sofía Zárate</span>
-                </p>
-                <p>
-                    Edad: <span>20</span>
-                </p>
-                <p>
-                    Nacionalidad: <span>Ecuatoriana</span>
-                </p>
-                
-            </section>
-            <section id="educacion">
-                <h2>Educación</h2>
-                <p>
-                    Grado: <span>Estudiante de Ingeniería en Computación</span>
-                </p>
-                <p>
-                    Institución: <span>Universidad Educativa Superior del Litoral</span>
-                </p>
-                <p>
-                    Fechas: <span>2021 - Actualidad</span>
-                </p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0151793696045!2d-79.96714432593073!3d-2.1478748371728904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1697035688807!5m2!1ses!2sec" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            </section>
-            <section id="experiencia">
-                <h2>Experiencia</h2>
-                <p>
-                    Cinco semestres como estudiante de Ingenieria en Computación en ESPOL.
-                </p>
-            </section>
+    <div class="grid">
+        <div class="parte1">
+            <header class="item1">
+                <img class= "foto" src="imagenes/perfil.png" alt="Foto de Sofia Zarate">
+                <h1>Currículum Vitae</h1>
+            </header>
         </div>
 
-        <div class="section2">
-            <section id="habilidades">
-                <h2>Habilidades</h2>
+        <div class="opciones">
+            <nav class="item2">
                 <ul>
-                    <li>Lenguajes de programación: Python, Java</li>
-                    <li>Bases de datos: MySQL</li>
-                    <li>Herramientas de desarrollo: Visual Studio Code, Git</li>
-                    <li>Otros: Inglés</li>
+                    <li><a href="#informacion-personal">Sobre mí</a></li>
+                    <li><a href="#eduacion">Educación</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
                 </ul>
-            </section id="contacto">
-            <h2>Contacto</h2>
-                <p>Si tiene alguna pregunta, no dude en contactarme:</p>
-                
-                <p>
-                    <i class="fas fa-phone"></i> Teléfono: <span>+52 123 456 7890</span>
-                </p>
-                <p>
-                    <i class="fas fa-envelope"></i> Correo electrónico: <span>szarate@espol.edu.ec</span>
-                </p>
-                <p>
-                    <i class="fas fa-globe"></i> Sitio web: <span><a href="Mi sitio web">https://zaratesofia.github.io/ZarateSofia/</a></span>
-                </p>
+            </nav>
+        </div>   
+        <div class="parte2">  
+            <div class="parte2.1">   
+                <section id="informacion-personal">
+                    <h2>Sobre mí</h2>
+                    <p>
+                        Nombre: <span>Sofía Zárate</span>
+                    </p>
+                    <p>
+                        Edad: <span>20</span>
+                    </p>
+                    <p>
+                        Nacionalidad: <span>Ecuatoriana</span>
+                    </p>
+                    <p>
+                        Teléfono: <span>+52 123 456 7890</span>
+                    </p>
+                    <p>
+                        Correo electrónico: <span>szarate@espol.edu.ec</span>
+                    </p>
+                     
+                </section>
+            </div> 
+            <div class="parte2.2">   
+                <section id="educacion">
+                    <h2>Educación</h2>
+                    <p>
+                        Grado: <span>Estudiante de Ingeniería en Computación</span>
+                    </p>
+                    <p>
+                        Institución: <span>Universidad Educativa Superior del Litoral</span>
+                    </p>
+                    <p>
+                        Fechas: <span>2021 - Actualidad</span>
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0151793696045!2d-79.96714432593073!3d-2.1478748371728904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1697035688807!5m2!1ses!2sec" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </div> 
+            <div class="parte2.3">
+                <section id="experiencia">
+                    <h2>Experiencia</h2>
+                    <p>
+                        Cinco semestres como estudiante de Ingenieria en Computación en ESPOL.
+                    </p>
+                </section>
+            </div>
+            <div class="parte2.4">
+                <section id="habilidades">
+                    <h2>Habilidades</h2>
+                    <ul>
+                        <li>Lenguajes de programación: Python, Java</li>
+                        <li>Bases de datos: MySQL</li>
+                        <li>Herramientas de desarrollo: Visual Studio Code, Git</li>
+                        <li>Otros: Inglés</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="parte2.5">      
+                <section id="contacto">
+                <h2>Contacto</h2>
+                    <p>Si tiene alguna pregunta, no dude en contactarme:</p>
 
-                <form id="formulario">        
-                    <label for="correoelectronico">Correo electrónico:</label> <input type="email" id="correoelectronico" name="correoelectronico" required="required" /><br>
-                    <label for="mensaje">Mensaje:</label> <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br>
-                    <button type="submit" name="enviar">Enviar</button>
-                </form>
+                    <form id="formulario">        
+                        <label for="correoelectronico">Correo electrónico:</label> <input type="email" id="correoelectronico" name="correoelectronico" required="required" /><br>
+                        <label for="mensaje">Mensaje:</label> <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br>
+                        <button type="submit" name="enviar">Enviar</button>
+                    </form>
 
-            </section>
+                </section>
+            </div>  
+            <div class="parte2.6">
+                <section id="proyectos">
+                    <h2>Proyectos</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0XPshMffxFc?si=XP4EniE_I0Nz2Jqx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </section>
+            </div>
+        </div>  
+
+        <div class="parte3">
             <footer>
                 <p>Copyright © 2023 Sofía Zárate</p>
             </footer>
-        </div>
+        </div> 
     </div>
 </body>
 </html>
