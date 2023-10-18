@@ -16,8 +16,8 @@ h1 {
 
 /*GRID GENERAL*/ 
 .grid{
-  display: grid;
-  grid-template-rows: 2 fr, 3fr;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
   padding: 2%;
   align-items: center;
@@ -25,10 +25,10 @@ h1 {
 
 /*PARTE 1*/ 
 .parte1{
-  grid-column: 1 / span 2;
   background-color: #faeee7;
   padding: 20px;
   border-radius: 10px;
+  width:95%
 }
 
 .item1{
@@ -48,10 +48,10 @@ h1 {
 
 /*BARRA DE OPCIONES*/ 
 .opciones{
-  grid-column: 1 / span 2;
   background-color: #faeee7;
   padding: 10px 0;
   border-radius: 10px;
+  width:98%
 }
 
 .item2 ul {
@@ -93,7 +93,7 @@ h1 {
 /*FORMULARIO*/ 
 form {
   display: grid;
-  gap: 10px;
+  gap: 3px;
 }
 
 form input, form textarea {
