@@ -78,10 +78,11 @@ h1 {
 /*PARTE 2*/ 
 .parte2{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 50% 50%;
   row-gap: 10px;
   column-gap: 10px;
   width: 98%;
+  background-color: aqua;
 }
 .parte2 > div {
   background-color: #faeee7;
