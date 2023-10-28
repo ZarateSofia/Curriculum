@@ -83,9 +83,9 @@ h1 {
   column-gap: 10px;
   width: 98%;
 }
-
+/*#faeee7*/ 
 .parte2 > div {
-  background-color: #faeee7;
+  background-color: #f6e7fa;
   padding: 20px;
   border-radius: 10px;
 }
