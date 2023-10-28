@@ -15,7 +15,7 @@ h1 {
 }
 
 /*GRID GENERAL*/ 
-.grid{
+.flex{
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -87,7 +87,6 @@ h1 {
   background-color: #faeee7;
   padding: 20px;
   border-radius: 10px;
-  /*box-shadow: 0px 0px 10px rgba(0,0,0,0.1);*/
 }
 
 /*FORMULARIO*/ 
@@ -118,11 +117,20 @@ form button:hover {
   background-color: #fffffe;
 }
 
-/*FORMULARIO*/ 
+/*PARTE 3*/ 
 .parte3{
   grid-column: 1 / span 2;
 }
 
 footer{
   text-align: center;
+}
+
+/*MAPA*/
+.mapa{
+  padding-left: 2%;
+}
+
+.video{
+  padding-left: 2%;
 }
